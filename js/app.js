@@ -40,7 +40,7 @@ dotaApp.controller('heroController', ['$scope', '$routeParams', 'heroListService
         }
     }
     //Selected hero info in heroSelected variable
-    console.log($scope.heroSelected);
+    //console.log($scope.heroSelected);
 }]);
 
 dotaApp.filter('capitalizeWord', function() {

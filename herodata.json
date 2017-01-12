@@ -26,8 +26,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"abaddon_sb",
+      "ROLES":[
+    "support",
+    "carry",
+    "durable"
+  ],
+      "IMGLINK":"abaddon",
       "RANGE":"Melee"
    },
    {
@@ -57,8 +61,15 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"alchemist_sb",
+      "ROLES":[
+    "support",
+    "carry",
+    "durable",
+    "disabler",
+    "initiator",
+    "nuker"
+  ],
+      "IMGLINK":"alchemist",
       "RANGE":"Melee"
    },
    {
@@ -88,8 +99,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"ancient_apparition_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"ancient_apparition",
       "RANGE":"Ranged"
    },
    {
@@ -119,8 +134,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"antimage_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "nuker"
+  ],
+      "IMGLINK":"antimage",
       "RANGE":"Melee"
    },
    {
@@ -150,8 +169,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"arc_warden_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "nuker"
+  ],
+      "IMGLINK":"arc_warden",
       "RANGE":"Ranged"
    },
    {
@@ -181,8 +204,13 @@
       "COL":24,
       "HP/S":3,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"axe_sb",
+      "ROLES":[
+    "initiator",
+    "durable",
+    "disabler",
+    "jungler"
+  ],
+      "IMGLINK":"axe",
       "RANGE":"Melee"
    },
    {
@@ -212,8 +240,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"bane_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker",
+    "durable"
+  ],
+      "IMGLINK":"bane",
       "RANGE":"Ranged"
    },
    {
@@ -243,8 +276,13 @@
       "COL":24,
       "HP/S":2,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"batrider_sb",
+      "ROLES":[
+    "intiator",
+    "jungler",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"batrider",
       "RANGE":"Ranged"
    },
    {
@@ -274,8 +312,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"beastmaster_sb",
+      "ROLES":[
+    "intiator",
+    "durable",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"beastmaster",
       "RANGE":"Melee"
    },
    {
@@ -305,8 +348,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"bloodseeker_sb",
+      "ROLES":[
+    "carry",
+    "disabler",
+    "jungler",
+    "nuker",
+    "initiator"
+  ],
+      "IMGLINK":"bloodseeker",
       "RANGE":"Melee"
    },
    {
@@ -336,8 +385,11 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"bounty_hunter_sb",
+      "ROLES":[
+    "escape",
+    "nuker"
+  ],
+      "IMGLINK":"bounty_hunter",
       "RANGE":"Melee"
    },
    {
@@ -367,8 +419,14 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"brewmaster_sb",
+      "ROLES":[
+    "carry",
+    "initiator",
+    "durable",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"brewmaster",
       "RANGE":"Melee"
    },
    {
@@ -398,8 +456,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"bristleback_sb",
+      "ROLES":[
+    "carry",
+    "initiator",
+    "durable",
+    "nuker"
+  ],
+      "IMGLINK":"bristleback",
       "RANGE":"Melee"
    },
    {
@@ -429,8 +492,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":8,
-      "ROLES":null,
-      "IMGLINK":"broodmother_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "escape",
+    "nuker"
+  ],
+      "IMGLINK":"broodmother",
       "RANGE":"Melee"
    },
    {
@@ -460,8 +528,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"centaur_sb",
+      "ROLES":[
+    "durable",
+    "initiator",
+    "disabler",
+    "nuker",
+    "escape"
+  ],
+      "IMGLINK":"centaur",
       "RANGE":"Melee"
    },
    {
@@ -491,8 +565,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"chaos_knight_sb",
+      "ROLES":[
+    "carry",
+    "disabler",
+    "durable",
+    "pusher",
+    "initiator"
+  ],
+      "IMGLINK":"chaos_knight",
       "RANGE":"Melee"
    },
    {
@@ -522,8 +602,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"chen_sb",
+      "ROLES":[
+    "support",
+    "jungler",
+    "pusher"
+  ],
+      "IMGLINK":"chen",
       "RANGE":"Ranged"
    },
    {
@@ -553,8 +637,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"clinkz_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "pusher"
+  ],
+      "IMGLINK":"clinkz",
       "RANGE":"Ranged"
    },
    {
@@ -584,8 +672,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"rattletrap_sb",
+      "ROLES":[
+    "initiator",
+    "disabler",
+    "durable",
+    "nuker"
+  ],
+      "IMGLINK":"rattletrap",
       "RANGE":"Melee"
    },
    {
@@ -615,8 +708,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"crystal_maiden_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker",
+    "jungler"
+  ],
+      "IMGLINK":"crystal_maiden",
       "RANGE":"Ranged"
    },
    {
@@ -646,8 +744,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"dark_seer_sb",
+      "ROLES":[
+    "initiator",
+    "jungler",
+    "escape",
+    "disabler"
+  ],
+      "IMGLINK":"dark_seer",
       "RANGE":"Melee"
    },
    {
@@ -677,8 +780,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"dazzle_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"dazzle",
       "RANGE":"Ranged"
    },
    {
@@ -708,8 +815,13 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"death_prophet_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"death_prophet",
       "RANGE":"Ranged"
    },
    {
@@ -739,8 +851,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"disruptor_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker",
+    "initiator"
+  ],
+      "IMGLINK":"disruptor",
       "RANGE":"Ranged"
    },
    {
@@ -770,8 +887,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"doom_bringer_sb",
+      "ROLES":[
+    "carry",
+    "disabler",
+    "initiator",
+    "durable",
+    "nuker"
+  ],
+      "IMGLINK":"doom_bringer",
       "RANGE":"Melee"
    },
    {
@@ -801,8 +924,15 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"dragon_knight_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "durable",
+    "disabler",
+    "initiator",
+    "nuker"
+  ],
+      "IMGLINK":"dragon_knight",
       "RANGE":"Melee"
    },
    {
@@ -832,8 +962,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"drow_ranger_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "disabler"
+  ],
+      "IMGLINK":"drow_ranger",
       "RANGE":"Ranged"
    },
    {
@@ -863,8 +997,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"earth_spirit_sb",
+      "ROLES":[
+    "nuker",
+    "escape",
+    "disabler",
+    "initiator",
+    "durable"
+  ],
+      "IMGLINK":"earth_spirit",
       "RANGE":"Melee"
    },
    {
@@ -894,8 +1034,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"earthshaker_sb",
+      "ROLES":[
+    "support",
+    "initiator",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"earthshaker",
       "RANGE":"Melee"
    },
    {
@@ -925,8 +1070,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"elder_titan_sb",
+      "ROLES":[
+    "initiator",
+    "disabler",
+    "nuker",
+    "durable"
+  ],
+      "IMGLINK":"elder_titan",
       "RANGE":"Melee"
    },
    {
@@ -956,8 +1106,14 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"ember_spirit_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "nuker",
+    "disabler",
+    "initiator"
+  ],
+      "IMGLINK":"ember_spirit",
       "RANGE":"Melee"
    },
    {
@@ -987,8 +1143,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"enchantress_sb",
+      "ROLES":[
+    "support",
+    "jungler",
+    "pusher",
+    "durable",
+    "disabler"
+  ],
+      "IMGLINK":"enchantress",
       "RANGE":"Ranged"
    },
    {
@@ -1018,8 +1180,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"enigma_sb",
+      "ROLES":[
+    "disabler",
+    "jungler",
+    "initiator",
+    "pusher"
+  ],
+      "IMGLINK":"enigma",
       "RANGE":"Ranged"
    },
    {
@@ -1049,8 +1216,14 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"faceless_void_sb",
+      "ROLES":[
+    "carry",
+    "initiator",
+    "disabler",
+    "escape",
+    "durable"
+  ],
+      "IMGLINK":"faceless_void",
       "RANGE":"Melee"
    },
    {
@@ -1080,8 +1253,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"gyrocopter_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"gyrocopter",
       "RANGE":"Ranged"
    },
    {
@@ -1111,8 +1288,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"huskar_sb",
+      "ROLES":[
+    "carry",
+    "durable",
+    "initiator"
+  ],
+      "IMGLINK":"huskar",
       "RANGE":"Ranged"
    },
    {
@@ -1142,8 +1323,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"invoker_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "disabler",
+    "escape",
+    "pusher"
+  ],
+      "IMGLINK":"invoker",
       "RANGE":"Ranged"
    },
    {
@@ -1173,8 +1360,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"wisp_sb",
+      "ROLES":[
+    "support",
+    "escape",
+    "nuker"
+  ],
+      "IMGLINK":"wisp",
       "RANGE":"Ranged"
    },
    {
@@ -1204,8 +1395,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"jakiro_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "pusher",
+    "disabler"
+  ],
+      "IMGLINK":"jakiro",
       "RANGE":"Ranged"
    },
    {
@@ -1235,8 +1431,12 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"juggernaut_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "escape"
+  ],
+      "IMGLINK":"juggernaut",
       "RANGE":"Melee"
    },
    {
@@ -1266,8 +1466,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"keeper_of_the_light_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "disabler",
+    "jungler"
+  ],
+      "IMGLINK":"keeper_of_the_light",
       "RANGE":"Ranged"
    },
    {
@@ -1297,8 +1502,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"kunkka_sb",
+      "ROLES":[
+    "carry",
+    "disabler",
+    "initiator",
+    "durable",
+    "nuker"
+  ],
+      "IMGLINK":"kunkka",
       "RANGE":"Melee"
    },
    {
@@ -1328,8 +1539,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"legion_commander_sb",
+      "ROLES":[
+    "carry",
+    "disabler",
+    "initiator",
+    "durable",
+    "nuker"
+  ],
+      "IMGLINK":"legion_commander",
       "RANGE":"Melee"
    },
    {
@@ -1359,8 +1576,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"leshrac_sb",
+      "ROLES":[
+    "carry",
+    "support",
+    "pusher",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"leshrac",
       "RANGE":"Ranged"
    },
    {
@@ -1390,8 +1613,11 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"lich_sb",
+      "ROLES":[
+    "support",
+    "nuker"
+  ],
+      "IMGLINK":"lich",
       "RANGE":"Ranged"
    },
    {
@@ -1421,8 +1647,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"life_stealer_sb",
+      "ROLES":[
+    "carry",
+    "durable",
+    "jungler",
+    "escape",
+    "disabler"
+  ],
+      "IMGLINK":"life_stealer",
       "RANGE":"Melee"
    },
    {
@@ -1452,8 +1684,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"lina_sb",
+      "ROLES":[
+    "support",
+    "carry",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"lina",
       "RANGE":"Ranged"
    },
    {
@@ -1483,8 +1720,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"lion_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker",
+    "initiator"
+  ],
+      "IMGLINK":"lion",
       "RANGE":"Ranged"
    },
    {
@@ -1514,8 +1756,13 @@
       "COL":24,
       "HP/S":0.5,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"lone_druid_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "jungler",
+    "durable"
+  ],
+      "IMGLINK":"lone_druid",
       "RANGE":"Ranged"
    },
    {
@@ -1545,8 +1792,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"luna_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "pusher"
+  ],
+      "IMGLINK":"luna",
       "RANGE":"Ranged"
    },
    {
@@ -1576,8 +1827,14 @@
       "COL":8,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"lycan_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "durable",
+    "jungler",
+    "escape"
+  ],
+      "IMGLINK":"lycan",
       "RANGE":"Melee"
    },
    {
@@ -1607,8 +1864,13 @@
       "COL":24,
       "HP/S":0.75,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"magnataur_sb",
+      "ROLES":[
+    "initiator",
+    "disabler",
+    "nuker",
+    "escape"
+  ],
+      "IMGLINK":"magnataur",
       "RANGE":"Melee"
    },
    {
@@ -1638,8 +1900,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"medusa_sb",
+      "ROLES":[
+    "carry",
+    "disabler",
+    "durable"
+  ],
+      "IMGLINK":"medusa",
       "RANGE":"Ranged"
    },
    {
@@ -1669,8 +1935,15 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"meepo_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "nuker",
+    "disabler",
+    "initiator",
+    "pusher"
+  ],
+      "IMGLINK":"meepo",
       "RANGE":"Melee"
    },
    {
@@ -1700,8 +1973,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"mirana_sb",
+      "ROLES":[
+    "carry",
+    "support",
+    "escape",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"mirana",
       "RANGE":"Ranged"
    },
    {
@@ -1731,8 +2010,13 @@
       "COL":8,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"monkey_king_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "disabler",
+    "initiator"
+  ],
+      "IMGLINK":"monkey_king",
       "RANGE":"Melee"
    },
    {
@@ -1762,8 +2046,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"morphling_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "durable",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"morphling",
       "RANGE":"Ranged"
    },
    {
@@ -1793,8 +2083,15 @@
       "COL":8,
       "HP/S":0.75,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"naga_siren_sb",
+      "ROLES":[
+    "carry",
+    "support",
+    "pusher",
+    "initiator",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"naga_siren",
       "RANGE":"Melee"
    },
    {
@@ -1824,8 +2121,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"furion_sb",
+      "ROLES":[
+    "carry",
+    "jungler",
+    "pusher",
+    "escape",
+    "nuker"
+  ],
+      "IMGLINK":"furion",
       "RANGE":"Ranged"
    },
    {
@@ -1855,8 +2158,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"necrolyte_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "durable",
+    "disabler"
+  ],
+      "IMGLINK":"necrolyte",
       "RANGE":"Ranged"
    },
    {
@@ -1886,8 +2194,14 @@
       "COL":24,
       "HP/S":2,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"night_stalker_sb",
+      "ROLES":[
+    "carry",
+    "initiator",
+    "nuker",
+    "durable",
+    "disabler"
+  ],
+      "IMGLINK":"night_stalker",
       "RANGE":"Melee"
    },
    {
@@ -1917,8 +2231,13 @@
       "COL":24,
       "HP/S":3.5,
       "L":6,
-      "ROLES":null,
-      "IMGLINK":"nyx_assassin_sb",
+      "ROLES":[
+    "disabler",
+    "nuker",
+    "initiator",
+    "escape"
+  ],
+      "IMGLINK":"nyx_assassin",
       "RANGE":"Melee"
    },
    {
@@ -1948,8 +2267,14 @@
       "COL":24,
       "HP/S":3.5,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"ogre_magi_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "disabler",
+    "durable",
+    "initiator"
+  ],
+      "IMGLINK":"ogre_magi",
       "RANGE":"Melee"
    },
    {
@@ -1979,8 +2304,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"omniknight_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "durable"
+  ],
+      "IMGLINK":"omniknight",
       "RANGE":"Melee"
    },
    {
@@ -2010,8 +2339,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"oracle_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"oracle",
       "RANGE":"Ranged"
    },
    {
@@ -2041,8 +2375,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"obsidian_destroyer_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"obsidian_destroyer",
       "RANGE":"Ranged"
    },
    {
@@ -2072,8 +2410,11 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"phantom_assassin_sb",
+      "ROLES":[
+    "carry",
+    "escape"
+  ],
+      "IMGLINK":"phantom_assassin",
       "RANGE":"Melee"
    },
    {
@@ -2103,8 +2444,13 @@
       "COL":8,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"phantom_lancer_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "pusher",
+    "nuker"
+  ],
+      "IMGLINK":"phantom_lancer",
       "RANGE":"Melee"
    },
    {
@@ -2134,8 +2480,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"phoenix_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "initiator",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"phoenix",
       "RANGE":"Ranged"
    },
    {
@@ -2165,8 +2517,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"puck_sb",
+      "ROLES":[
+    "nuker",
+    "initiator",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"puck",
       "RANGE":"Ranged"
    },
    {
@@ -2196,8 +2553,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"pudge_sb",
+      "ROLES":[
+    "nuker",
+    "initiator",
+    "disabler",
+    "durable"
+  ],
+      "IMGLINK":"pudge",
       "RANGE":"Melee"
    },
    {
@@ -2227,8 +2589,11 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"pugna_sb",
+      "ROLES":[
+    "nuker",
+    "pusher"
+  ],
+      "IMGLINK":"pugna",
       "RANGE":"Ranged"
    },
    {
@@ -2258,8 +2623,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"queenofpain_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "escape"
+  ],
+      "IMGLINK":"queenofpain",
       "RANGE":"Ranged"
    },
    {
@@ -2289,8 +2658,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"razor_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "durable",
+    "pusher"
+  ],
+      "IMGLINK":"razor",
       "RANGE":"Ranged"
    },
    {
@@ -2320,8 +2694,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"riki_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "disabler"
+  ],
+      "IMGLINK":"riki",
       "RANGE":"Melee"
    },
    {
@@ -2351,8 +2729,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"rubick_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"rubick",
       "RANGE":"Ranged"
    },
    {
@@ -2382,8 +2764,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":6,
-      "ROLES":null,
-      "IMGLINK":"sand_king_sb",
+      "ROLES":[
+    "initiator",
+    "escape",
+    "jungler",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"sand_king",
       "RANGE":"Melee"
    },
    {
@@ -2413,8 +2801,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"shadow_demon_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "initiator",
+    "nuker"
+  ],
+      "IMGLINK":"shadow_demon",
       "RANGE":"Ranged"
    },
    {
@@ -2444,8 +2837,11 @@
       "COL":24,
       "HP/S":0.5,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"nevermore_sb",
+      "ROLES":[
+    "carry",
+    "nuker"
+  ],
+      "IMGLINK":"nevermore",
       "RANGE":"Ranged"
    },
    {
@@ -2475,8 +2871,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"shadow_shaman_sb",
+      "ROLES":[
+    "support",
+    "pusher",
+    "disabler",
+    "nuker",
+    "initiator"
+  ],
+      "IMGLINK":"shadow_shaman",
       "RANGE":"Ranged"
    },
    {
@@ -2506,8 +2908,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"silencer_sb",
+      "ROLES":[
+    "carry",
+    "support",
+    "disabler",
+    "initiator",
+    "nuker"
+  ],
+      "IMGLINK":"silencer",
       "RANGE":"Ranged"
    },
    {
@@ -2537,8 +2945,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"skywrath_mage_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"skywrath_mage",
       "RANGE":"Ranged"
    },
    {
@@ -2568,8 +2980,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"slardar_sb",
+      "ROLES":[
+    "carry",
+    "durable",
+    "initiator",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"slardar",
       "RANGE":"Melee"
    },
    {
@@ -2599,8 +3017,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"slark_sb",
+      "ROLES":[
+    "carry",
+    "escape",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"slark",
       "RANGE":"Melee"
    },
    {
@@ -2630,8 +3053,11 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"sniper_sb",
+      "ROLES":[
+    "carry",
+    "nuker"
+  ],
+      "IMGLINK":"sniper",
       "RANGE":"Ranged"
    },
    {
@@ -2661,8 +3087,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"spectre_sb",
+      "ROLES":[
+    "carry",
+    "durable",
+    "escape"
+  ],
+      "IMGLINK":"spectre",
       "RANGE":"Melee"
    },
    {
@@ -2692,8 +3122,14 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"spirit_breaker_sb",
+      "ROLES":[
+    "carry",
+    "initiator",
+    "disabler",
+    "durable",
+    "escape"
+  ],
+      "IMGLINK":"spirit_breaker",
       "RANGE":"Melee"
    },
    {
@@ -2723,8 +3159,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"storm_spirit_sb",
+      "ROLES":[
+    "carry",
+    "initiator",
+    "disabler",
+    "nuker",
+    "escape"
+  ],
+      "IMGLINK":"storm_spirit",
       "RANGE":"Ranged"
    },
    {
@@ -2754,8 +3196,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"sven_sb",
+      "ROLES":[
+    "carry",
+    "initiator",
+    "disabler",
+    "nuker",
+    "durable"
+  ],
+      "IMGLINK":"sven",
       "RANGE":"Melee"
    },
    {
@@ -2785,8 +3233,11 @@
       "COL":24,
       "HP/S":0.25,
       "L":6,
-      "ROLES":null,
-      "IMGLINK":"techies_sb",
+      "ROLES":[
+    "nuker",
+    "disabler"
+  ],
+      "IMGLINK":"techies",
       "RANGE":"Ranged"
    },
    {
@@ -2816,8 +3267,11 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"templar_assassin_sb",
+      "ROLES":[
+    "carry",
+    "escape"
+  ],
+      "IMGLINK":"templar_assassin",
       "RANGE":"Ranged"
    },
    {
@@ -2847,8 +3301,12 @@
       "COL":24,
       "HP/S":2,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"terrorblade_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "nuker"
+  ],
+      "IMGLINK":"terrorblade",
       "RANGE":"Melee"
    },
    {
@@ -2878,8 +3336,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"tidehunter_sb",
+      "ROLES":[
+    "initiator",
+    "durable",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"tidehunter",
       "RANGE":"Melee"
    },
    {
@@ -2909,8 +3372,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"shredder_sb",
+      "ROLES":[
+    "nuker",
+    "durable",
+    "escape"
+  ],
+      "IMGLINK":"shredder",
       "RANGE":"Melee"
    },
    {
@@ -2940,8 +3407,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"tinker_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "pusher"
+  ],
+      "IMGLINK":"tinker",
       "RANGE":"Ranged"
    },
    {
@@ -2971,8 +3442,15 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"tiny_sb",
+      "ROLES":[
+    "carry",
+    "nuker",
+    "pusher",
+    "initiator",
+    "durable",
+    "disabler"
+  ],
+      "IMGLINK":"tiny",
       "RANGE":"Melee"
    },
    {
@@ -3002,8 +3480,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"treant_sb",
+      "ROLES":[
+    "support",
+    "initiator",
+    "durable",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"treant",
       "RANGE":"Melee"
    },
    {
@@ -3033,8 +3517,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"troll_warlord_sb",
+      "ROLES":[
+    "carry",
+    "pusher",
+    "disabler",
+    "durable"
+  ],
+      "IMGLINK":"troll_warlord",
       "RANGE":"Ranged"
    },
    {
@@ -3064,8 +3553,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"tusk_sb",
+      "ROLES":[
+    "initiator",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"tusk",
       "RANGE":"Melee"
    },
    {
@@ -3095,8 +3588,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"abyssal_underlord_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "durable",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"abyssal_underlord",
       "RANGE":"Melee"
    },
    {
@@ -3126,8 +3625,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"undying_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "durable",
+    "disabler"
+  ],
+      "IMGLINK":"undying",
       "RANGE":"Melee"
    },
    {
@@ -3157,8 +3661,13 @@
       "COL":24,
       "HP/S":0.75,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"ursa_sb",
+      "ROLES":[
+    "carry",
+    "jungler",
+    "durable",
+    "disabler"
+  ],
+      "IMGLINK":"ursa",
       "RANGE":"Melee"
    },
    {
@@ -3188,8 +3697,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"vengefulspirit_sb",
+      "ROLES":[
+    "support",
+    "initiator",
+    "durable",
+    "disabler",
+    "escape"
+  ],
+      "IMGLINK":"vengefulspirit",
       "RANGE":"Ranged"
    },
    {
@@ -3219,8 +3734,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"venomancer_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "initiator",
+    "pusher",
+    "disabler"
+  ],
+      "IMGLINK":"venomancer",
       "RANGE":"Ranged"
    },
    {
@@ -3250,8 +3771,13 @@
       "COL":24,
       "HP/S":0.25,
       "L":0,
-      "ROLES":null,
-      "IMGLINK":"viper_sb",
+      "ROLES":[
+    "carry",
+    "durable",
+    "initiator",
+    "disabler"
+  ],
+      "IMGLINK":"viper",
       "RANGE":"Ranged"
    },
    {
@@ -3281,8 +3807,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"visage_sb",
+      "ROLES":[
+    "support",
+    "nuker",
+    "durable",
+    "disabler",
+    "pusher"
+  ],
+      "IMGLINK":"visage",
       "RANGE":"Ranged"
    },
    {
@@ -3312,8 +3844,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"warlock_sb",
+      "ROLES":[
+    "support",
+    "initiator",
+    "disabler"
+  ],
+      "IMGLINK":"warlock",
       "RANGE":"Ranged"
    },
    {
@@ -3343,8 +3879,11 @@
       "COL":24,
       "HP/S":0.25,
       "L":4,
-      "ROLES":null,
-      "IMGLINK":"weaver_sb",
+      "ROLES":[
+    "carry",
+    "escape"
+  ],
+      "IMGLINK":"weaver",
       "RANGE":"Ranged"
    },
    {
@@ -3374,8 +3913,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"windrunner_sb",
+      "ROLES":[
+    "carry",
+    "support",
+    "disabler",
+    "escape",
+    "nuker"
+  ],
+      "IMGLINK":"windrunner",
       "RANGE":"Ranged"
    },
    {
@@ -3405,8 +3950,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"winter_wyvern_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"winter_wyvern",
       "RANGE":"Ranged"
    },
    {
@@ -3436,8 +3985,12 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"witch_doctor_sb",
+      "ROLES":[
+    "support",
+    "disabler",
+    "nuker"
+  ],
+      "IMGLINK":"witch_doctor",
       "RANGE":"Ranged"
    },
    {
@@ -3467,8 +4020,14 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"skeleton_king_sb",
+      "ROLES":[
+    "carry",
+    "support",
+    "durable",
+    "disabler",
+    "initiator"
+  ],
+      "IMGLINK":"skeleton_king",
       "RANGE":"Melee"
    },
    {
@@ -3498,8 +4057,10 @@
       "COL":24,
       "HP/S":0.25,
       "L":2,
-      "ROLES":null,
-      "IMGLINK":"zuus_sb",
+      "ROLES":[
+    "nuker"
+  ],
+      "IMGLINK":"zuus",
       "RANGE":"Ranged"
    }
 ]

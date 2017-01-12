@@ -1,6 +1,14 @@
+html{
+    cursor:url('../cursor_default.png'),default;
+}
 body {
+    
+    
     padding-top: 50px;
     color: #939393;
+}
+a{
+    cursor:url('../cursor_default.png'),default;
 }
 
 .starter-template {
