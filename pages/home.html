@@ -13,7 +13,7 @@
                 <div class="heroColLeft">
                     <div id="columnHeader"><span id="columnHeaderTextStr">Strength</span></div>
                     <div class="heroIcons">
-                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 21 :0" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes |  filter:{AttributePrimary: 'DOTA_ATTRIBUTE_STRENGTH'} | filter:{Team:'Good'}" href="#/hero/{{hero.url}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.SoundSet}}_sb.png" /></a>
                     </div>
                     <br clear="left" /> </div>
             </div>
@@ -21,7 +21,7 @@
                 <div class="heroColMiddle">
                     <div id="columnHeader"><span id="columnHeaderTextAgi">Agility</span></div>
                     <div class="heroIcons">
-                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 19 : 21" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | filter:{AttributePrimary: 'DOTA_ATTRIBUTE_AGILITY'} | filter:{Team:'Good'}" href="#/hero/{{hero.url}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.SoundSet}}_sb.png" /></a>
                     </div>
                     <br clear="left" /> </div>
             </div>
@@ -29,7 +29,7 @@
                 <div class="heroColRight">
                     <div id="columnHeader"><span id="columnHeaderTextInt">Intelligence</span></div>
                     <div class="heroIcons">
-                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 20 : 40" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | filter:{AttributePrimary: 'DOTA_ATTRIBUTE_INTELLECT'} | filter:{Team:'Good'}" href="#/hero/{{hero.url}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.SoundSet}}_sb.png" /></a>
                     </div>
                     <br clear="left" /> </div>
             </div>
@@ -38,21 +38,21 @@
             <div class="col-md-4">
                 <div class="heroColLeft">
                     <div class="heroIcons">
-                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 16 : 60" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | filter:{AttributePrimary: 'DOTA_ATTRIBUTE_STRENGTH'} | filter:{Team:'Bad'}" href="#/hero/{{hero.url}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.SoundSet}}_sb.png" /></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="heroColMiddle">
                     <div class="heroIcons">
-                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 17 : 76" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | filter:{AttributePrimary: 'DOTA_ATTRIBUTE_AGILITY'} | filter:{Team:'Bad'}" href="#/hero/{{hero.url}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.SoundSet}}_sb.png" /></a>
                     </div>
                     <br clear="left" /> </div>
             </div>
             <div class="col-md-4">
                 <div class="heroColRight">
                     <div class="heroIcons">
-                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 20 : 94" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | filter:{AttributePrimary: 'DOTA_ATTRIBUTE_INTELLECT'} | filter:{Team:'Bad'}" href="#/hero/{{hero.url}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.SoundSet}}_sb.png" /></a>
                     </div>
                     <br clear="left" /> </div>
             </div>

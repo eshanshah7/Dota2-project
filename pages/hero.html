@@ -1,21 +1,25 @@
 <div id="heroBioArea">
     <div id="bioBoxFade"><img src="http://cdn.dota2.com/apps/dota2/images/heropedia/biobox_fade.png" width="874" height="26"></div>
     <div style="" id="heroBioDynamic">
-        <h1 id="heroBioName">{{heroSelected.HERO}}</h1>
+        <h1 id="heroBioName">{{heroSelected.url | removeUnderscore}}</h1>
         <div class="bioBoxHR"></div>
-        <p id="heroBioRoles"><span class="bioTextAttack">{{heroSelected.RANGE}}</span> <span ng-repeat="role in heroSelected.ROLES">  -  {{role | capitalizeWord}}</span></p>
+        <p id="heroBioRoles"><span class="bioTextAttack">{{heroSelected.AttackCapabilities | rangeFilter}}</span> <span ng-repeat="role in selectedRoles">  -  {{role | capitalizeWord}}</span></p>
     </div>
 </div>
 <div id="overviewInner">
     <div id="overviewHeroLeft">
-        <div id="heroPrimaryPortraitHolder"> <img id="heroPrimaryPortraitImg" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{heroSelected.IMGLINK}}_vert.jpg" width="235" height="272"> <img id="heroPrimaryPortraitOverlay" src="http://cdn.dota2.com/apps/dota2/images/heropedia/heroprimaryportrait_overlay.png" width="243" height="280" border="0"> </div>
-        <div id="overviewPrimaryStats"> <img style="top:1px" id="overviewIcon_Primary" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_primary.png" width="40" height="40"> <img title="Intelligence" id="overviewIcon_Int" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_int.png" width="33" height="33">
-            <div class="overview_StatVal" id="overview_IntVal">{{heroSelected.INT}} + {{heroSelected.INTplus}}</div> <img title="Agility" id="overviewIcon_Agi" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_agi.png" width="33" height="33">
-            <div class="overview_StatVal" id="overview_AgiVal">{{heroSelected.AGI}} + {{heroSelected.AGIplus}}</div> <img title="Strength" id="overviewIcon_Str" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_str.png" width="33" height="33">
-            <div class="overview_StatVal" id="overview_StrVal">{{heroSelected.STR}} + {{heroSelected.STRplus}}</div> <img title="Damage" id="overviewIcon_Attack" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_attack.png" width="46" height="35">
-            <div class="overview_StatVal" id="overview_AttackVal">{{heroSelected.DMGmin}} - {{heroSelected.DMGmax}}</div> <img title="Movespeed" id="overviewIcon_Speed" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_speed.png" width="63" height="39">
-            <div class="overview_StatVal" id="overview_SpeedVal">{{heroSelected.MOV}}</div> <img title="Armor" id="overviewIcon_Defense" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_defense.png" width="39" height="37">
-            <div class="overview_StatVal" id="overview_DefenseVal">{{heroSelected.AR}}</div>
+        <div id="heroPrimaryPortraitHolder"> <img id="heroPrimaryPortraitImg" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{heroSelected.SoundSet}}_vert.jpg" width="235" height="272"> <img id="heroPrimaryPortraitOverlay" src="http://cdn.dota2.com/apps/dota2/images/heropedia/heroprimaryportrait_overlay.png" width="243" height="280" border="0"> </div>
+        <div id="overviewPrimaryStats">  <img title="Intelligence" id="overviewIcon_Int" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_int.png" width="33" height="33">
+            <div class="overview_StatVal" id="overview_IntVal">{{heroSelected.AttributeBaseIntelligence}} + {{heroSelected.AttributeIntelligenceGain | number}}</div> 
+            
+            <img style="top:1px" id="overviewIcon_Primary" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_primary.png" width="40" height="40">
+            
+            <img title="Agility" id="overviewIcon_Agi" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_agi.png" width="33" height="33">
+            <div class="overview_StatVal" id="overview_AgiVal">{{heroSelected.AttributeBaseAgility}} + {{heroSelected.AttributeAgilityGain | number}}</div> <img title="Strength" id="overviewIcon_Str" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_str.png" width="33" height="33">
+            <div class="overview_StatVal" id="overview_StrVal">{{heroSelected.AttributeBaseStrength}} + {{heroSelected.AttributeStrengthGain | number}}</div> <img title="Damage" id="overviewIcon_Attack" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_attack.png" width="46" height="35">
+            <div class="overview_StatVal" id="overview_AttackVal">{{heroSelected.AttackDamageMin}} - {{heroSelected.AttackDamageMax}}</div> <img title="Movespeed" id="overviewIcon_Speed" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_speed.png" width="63" height="39">
+            <div class="overview_StatVal" id="overview_SpeedVal">{{heroSelected.MovementSpeed}}</div> <img title="Armor" id="overviewIcon_Defense" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_defense.png" width="39" height="37">
+            <div class="overview_StatVal" id="overview_DefenseVal">{{heroSelected.ArmorPhysical | number}}</div>
         </div>
     </div>
 </div>

@@ -1,4 +1,4 @@
-{
+[{
   "DOTAHeroes": {
     "Version": "1",
     "npc_dota_hero_base": {
@@ -19844,3 +19844,4 @@
     }
   }
 }
+]
