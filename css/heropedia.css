@@ -129,6 +129,8 @@ img {
 #overviewHeroLeft {
 	float:left;
 	width:270px;
+    margin-left: 45px;
+    margin-top: 20px;
 }
 #overviewHeroAbilities {
 	float:left;

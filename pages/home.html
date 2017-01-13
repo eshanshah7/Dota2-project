@@ -1,58 +1,61 @@
-<div id="heroBioArea">
-    <div id="bioBoxFade"><img src="http://cdn.dota2.com/apps/dota2/images/heropedia/biobox_fade.png" width="874" height="26"></div>
-    <div style="" id="heroBioDynamic">
-        <h1 id="heroBioName">{{selectedHero}}</h1>
-        <div class="bioBoxHR"></div>
-        <p id="heroBioRoles"><span class="bioTextAttack">{{herorange}}</span> <span ng-repeat="role in selectedRoles">  -  {{role | capitalizeWord}}</span></p>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="heroColLeft">
-            <div id="columnHeader"><span id="columnHeaderTextStr">Strength</span></div>
-            <div class="heroIcons">
-                <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 21 :0" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png"/></a>
-                
-            </div>
-            <br clear="left" /> </div>
-    </div>
-    <div class="col-md-4">
-        <div class="heroColMiddle">
-            <div id="columnHeader"><span id="columnHeaderTextAgi">Agility</span></div>
-            <div class="heroIcons">
-                <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 19 : 21" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png"/></a>
-            </div>
-            <br clear="left" /> </div>
-    </div>
-    <div class="col-md-4">
-        <div class="heroColRight">
-            <div id="columnHeader"><span id="columnHeaderTextInt">Intelligence</span></div>
-            <div class="heroIcons">
-                <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 20 : 40" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png"/></a>
-            </div>
-            <br clear="left" /> </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="heroColLeft">
-            <div class="heroIcons">
-                <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 16 : 60" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png"/></a>
+<div id="heroPickerInner">
+    <div class="starter-template">
+        <div id="heroBioArea">
+            <div id="bioBoxFade"><img src="http://cdn.dota2.com/apps/dota2/images/heropedia/biobox_fade.png" width="874" height="26"></div>
+            <div style="" id="heroBioDynamic">
+                <h1 id="heroBioName">{{selectedHero}}</h1>
+                <div class="bioBoxHR"></div>
+                <p id="heroBioRoles"><span class="bioTextAttack">{{herorange}}</span> <span ng-repeat="role in selectedRoles">  -  {{role | capitalizeWord}}</span></p>
             </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <div class="heroColMiddle">
-            <div class="heroIcons">
-                <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 17 : 76" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png"/></a>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="heroColLeft">
+                    <div id="columnHeader"><span id="columnHeaderTextStr">Strength</span></div>
+                    <div class="heroIcons">
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 21 :0" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                    </div>
+                    <br clear="left" /> </div>
             </div>
-            <br clear="left" /> </div>
-    </div>
-    <div class="col-md-4">
-        <div class="heroColRight">
-            <div class="heroIcons">
-                <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 20 : 94" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png"/></a>
+            <div class="col-md-4">
+                <div class="heroColMiddle">
+                    <div id="columnHeader"><span id="columnHeaderTextAgi">Agility</span></div>
+                    <div class="heroIcons">
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 19 : 21" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                    </div>
+                    <br clear="left" /> </div>
             </div>
-            <br clear="left" /> </div>
+            <div class="col-md-4">
+                <div class="heroColRight">
+                    <div id="columnHeader"><span id="columnHeaderTextInt">Intelligence</span></div>
+                    <div class="heroIcons">
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 20 : 40" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                    </div>
+                    <br clear="left" /> </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="heroColLeft">
+                    <div class="heroIcons">
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 16 : 60" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="heroColMiddle">
+                    <div class="heroIcons">
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 17 : 76" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                    </div>
+                    <br clear="left" /> </div>
+            </div>
+            <div class="col-md-4">
+                <div class="heroColRight">
+                    <div class="heroIcons">
+                        <a class="heroPickerIconLink" ng-repeat="hero in heroes | orderBy:'ID' | limitTo : 20 : 94" href="#/hero/{{hero.HERO}}"><img class="heroHoverSmall" ng-mouseover="selectHero(hero)" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{hero.IMGLINK}}_sb.png" /></a>
+                    </div>
+                    <br clear="left" /> </div>
+            </div>
+        </div>
     </div>
 </div>
