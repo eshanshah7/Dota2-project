@@ -14,3 +14,8 @@ a {
 .starter-template {
     text-align: center;
 }
+
+.rzslider .rz-pointer{
+    outline: 0 none;
+    background-color: red;
+}

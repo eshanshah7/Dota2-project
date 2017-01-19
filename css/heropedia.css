@@ -126,21 +126,25 @@ img {
 	width:850px;
 	text-align:left;
 }
-#overviewHeroLeft {
-	float:left;
-	width:270px;
-    margin-left: 45px;
+
+#hudBox{
+    position:relative;
     margin-top: 20px;
+}
+#overviewHeroLeft {
+	
 }
 #overviewHeroAbilities {
 	float:left;
 	width:565px;
 }
 #heroPrimaryPortraitHolder {
-	width:243px;
-	height:280px;
+    float:left;
+	width:107px;
+	height:137px;
 	position:relative;
-	margin-bottom:14px;
+	top:-137px;
+    left:91px;
 }
 #heroPrimaryPortraitImg {
 	position:absolute;
@@ -200,8 +204,9 @@ img {
 }
 .overview_StatVal {
 	position:absolute;
-	font-size:14px;
-	font-weight:bold;
+	font-size:12px;
+	font-weight:10px;
+    top:114px;
 }
 #overview_IntVal {
 	top:14px;
@@ -216,18 +221,47 @@ img {
 	left:47px;
 }
 #overview_AttackVal {
-	top:14px;
-	left:178px;
+	left:592px;
+}
+#overview_AttackSpeedVal {
+	left:640px;
 }
 #overview_SpeedVal {
-	top:54px;
-	left:178px;
+	left:794px;
 }
-#overview_DefenseVal {
-	top:94px;
-	left:178px;
+#overview_ArmorVal {
+	left:695px;
 }
-
+#overview_MagicResVal {
+	left:735px;
+}
+#overview_HPVal {
+    width:275px;
+    top: 89px;
+	left:284px;
+    color:ghostwhite;
+    font-weight: bold;
+}
+#overview_ManaVal {
+    width:275px;
+    top: 89px;
+	left:284px;
+    color:ghostwhite;
+    font-weight: bold;
+}
+#overview_LevelVal{
+    top:99px;
+    left:219px;
+    font-size: 14px;
+    width : 30px;
+    color: #F3E494;
+    text-shadow: 0 0 0.7em red,0 0 1em #B1602A;    
+}
+#levelSlider{
+    position:absolute;
+    width: 733px;
+    left:90px;
+}
 .overviewAbilityRow {
 	margin-bottom:4px;
 }

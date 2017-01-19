@@ -6,20 +6,21 @@
         <p id="heroBioRoles"><span class="bioTextAttack">{{heroSelected.AttackCapabilities | rangeFilter}}</span> <span ng-repeat="role in selectedRoles">  -  {{role | capitalizeWord}}</span></p>
     </div>
 </div>
-<div id="overviewInner">
-    <div id="overviewHeroLeft">
-        <div id="heroPrimaryPortraitHolder"> <img id="heroPrimaryPortraitImg" src="http://cdn.dota2.com/apps/dota2/images/heroes/{{heroSelected.SoundSet}}_vert.jpg" width="235" height="272"> <img id="heroPrimaryPortraitOverlay" src="http://cdn.dota2.com/apps/dota2/images/heropedia/heroprimaryportrait_overlay.png" width="243" height="280" border="0"> </div>
-        <div id="overviewPrimaryStats">  <img title="Intelligence" id="overviewIcon_Int" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_int.png" width="33" height="33">
-            <div class="overview_StatVal" id="overview_IntVal">{{heroSelected.AttributeBaseIntelligence}} + {{heroSelected.AttributeIntelligenceGain | number}}</div> 
-            
-            <img style="top:1px" id="overviewIcon_Primary" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_primary.png" width="40" height="40">
-            
-            <img title="Agility" id="overviewIcon_Agi" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_agi.png" width="33" height="33">
-            <div class="overview_StatVal" id="overview_AgiVal">{{heroSelected.AttributeBaseAgility}} + {{heroSelected.AttributeAgilityGain | number}}</div> <img title="Strength" id="overviewIcon_Str" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_str.png" width="33" height="33">
-            <div class="overview_StatVal" id="overview_StrVal">{{heroSelected.AttributeBaseStrength}} + {{heroSelected.AttributeStrengthGain | number}}</div> <img title="Damage" id="overviewIcon_Attack" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_attack.png" width="46" height="35">
-            <div class="overview_StatVal" id="overview_AttackVal">{{heroSelected.AttackDamageMin}} - {{heroSelected.AttackDamageMax}}</div> <img title="Movespeed" id="overviewIcon_Speed" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_speed.png" width="63" height="39">
-            <div class="overview_StatVal" id="overview_SpeedVal">{{heroSelected.MovementSpeed}}</div> <img title="Armor" id="overviewIcon_Defense" src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_defense.png" width="39" height="37">
-            <div class="overview_StatVal" id="overview_DefenseVal">{{heroSelected.ArmorPhysical | number}}</div>
-        </div>
+<div id="hudBox">
+    <div id="overviewHeroLeft"> <img src="/images/HUD01.png">
+        <div id="heroPrimaryPortraitHolder"> <img src="http://cdn.dota2.com/apps/dota2/images/heroes/{{heroSelected.SoundSet}}_vert.jpg" width="107" height="137"> </div>
     </div>
+    <div class="overview_StatVal" id="overview_LevelVal">{{levelSlider.value}}</div>
+    <div class="overview_StatVal" id="overview_HPVal">{{heroHP | floorNumber}} / {{heroHP | floorNumber}}</div>
+    <div class="overview_StatVal" id="overview_ManaVal">{{heroMana | floorNumber}} / {{heroMana | floorNumber}}</div>
+    <div class="overview_StatVal" id="overview_AttackVal">{{heroDamage | floorNumber}}</div>
+    <div class="overview_StatVal" id="overview_AttackSpeedVal">{{heroAtkSpd | floorNumber}}</div>
+    <div class="overview_StatVal" id="overview_ArmorVal">{{heroArmor | floorNumber}}</div>
+    <div class="overview_StatVal" id="overview_MagicResVal">{{heroMagicRes}}%</div>
+    <div class="overview_StatVal" id="overview_SpeedVal">{{heroSelected.MovementSpeed}}</div>
+    
+    <div id="levelSlider">
+    <rzslider rz-slider-model="levelSlider.value" rz-slider-options="levelSlider.options"></rzslider>
 </div>
+</div>
+
